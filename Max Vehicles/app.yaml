@@ -11,6 +11,11 @@ variables:
     description: ''
     defaultValue: max-vehicles
     required: false
+  - name: output2
+    inputType: OutputTopic
+    description: ''
+    defaultValue: max-vehicles-agg
+    required: false
 dockerfile: build/dockerfile
 runEntryPoint: main.py
 defaultFile: main.py
